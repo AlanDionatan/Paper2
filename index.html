@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pizzaria ABCD</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1C1C1C;
+    }
+
+    #header {
+      background-color: #FF0000;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #header h1 {
+      color: #FFFAFA;
+      margin: 0;
+      font-family: "Brush Script", cursive;
+    }
+
+    #sidebar {
+      background-color: #006400;
+      float: left;
+      width: 200px;
+      padding: 20px;
+    }
+
+    #sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #sidebar ul li {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #FFFAFA;
+      padding-bottom: 5px;
+    }
+
+    #sidebar ul li a {
+      color: #FFFAFA;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    #sidebar ul li a:hover {
+      background-color: #FFFAFA;
+      color: #2F4F4F;
+    }
+
+    #content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .content-images {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .content-images img {
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #006400;
+      color: #FFFAFA;
+      text-align: center;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <img src="https://thumbs.dreamstime.com/b/pizza-chef-8751369.jpg" style="max-height: 100px;">
+    <h1>Pizzaria UniPaper</h1>
+    <img src="https://thumbs.dreamstime.com/b/pizza-chef-8751369.jpg" style="max-height: 100px;">
+  </div>
+
+  <div id="sidebar">
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./src/formulario.html">Cadastro</a></li>
+      <li><a href="./src/cardapio2.html">Cardápio</a></li>
+      <li><a href="./src/promocao2.html">Promoções</a></li>
+      <li><a href="./src/tela-de-login.html">Login</a></li>
+    </ul>
+  </div>
+
+  <div id="content">
+    <div class="content-images">
+      <img src="https://thumbs.dreamstime.com/b/pizza-slice-5957584.jpg">
+      <img
+        src="https://thumbs.dreamstime.com/b/six-hands-slices-pizza-banner-friends-taking-slice-having-dinner-together-isolated-white-background-eps-97802820.jpg">
+    </div>
+  </div>
+
+  <footer>
+    <p>Todos os direitos reservados &copy; 2023 Pizzaria UniPaper</p>
+  </footer>
+</body>
+
+</html>
